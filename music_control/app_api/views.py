@@ -5,4 +5,4 @@ from .serial import RoomSerializer
 
 class RoomView(generics.ListAPIView):
     queryset=Room.objects.all()
-    serializer_class=RoomSerializer 
+    serializer_class=RoomSerializer      
